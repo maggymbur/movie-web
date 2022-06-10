@@ -26,13 +26,13 @@ h2{
 
 #page-banner{
     background-image: url("image2.jpg");
-    background-size: 100%;
+    background-size: 20%;
     align-items: center;
     padding: 10px 0;
 }
 
 #page-banner h1,
-#page-banner p{
+#page-banner h2{
     width: 100%;
     text-align: center;
     margin: 10px,0;
