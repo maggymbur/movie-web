@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Time</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
 </head>
 <body>
     <div id="wrapper>">
@@ -17,34 +16,36 @@
             </div>
         </header>
         <div id="movie-list">
+            <input id="filter" class="searchbox" type="text" placeholder="searchmovie" style="float: right;" />
             <h2 class="title">Exiciting movies to watch</h2>
-            <ul>
+            <ul id="list">
                 <li>
                     <span class="name">Vampire Diares</span>
-                    <span class="delete">delete</span>
+                    <button class="delete">delete</button>
                 </li>
                 <li>
                     <span class="name">First kill</span>
-                    <span class="delete">delete</span>
+                    <button class="delete">delete</button>
                 </li>
                 <li>
                     <span class="name">Dark</span>
-                    <span class="delete">delete</span>
+                    <button class="delete">delete</button>
                 </li>
                 <li>
                     <span class="name">You</span>
-                    <span class="delete">delete</span>
+                    <button class="delete">delete</button>
                 </li>
                 <li>
                     <span class="name">Lucifer</span>
-                    <span class="delete">delete</span>
+                    <button class="delete">delete</button>
                 </li>
             </ul>
         </div>
         <form id="add-movie">
-            <input type="text" placeholder="add a new movie.."/>
-            <button>Add</button>
+            <input id="item" type="text" placeholder="add a new movie.."/>
+            <button id="btn">Add</button>
         </form>
     </div>
+    <script src="demo.js"></script>
 </body>
 </html>

@@ -26,7 +26,8 @@ h2{
 
 #page-banner{
     background-image: url("image2.jpg");
-    background-size: 20%;
+    background-repeat: none;
+    background-size: 50%;
     align-items: center;
     padding: 10px 0;
 }
@@ -118,6 +119,26 @@ h2{
 #add-movie label {
     line-height: 52px;
 }
+.searchbox{
+    width: 300px;
+    height: 40px;
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 2px solid rebeccapurple;
+    text-transform: capitalize;
+    background: none;
+    color: black;
+    outline: none;
+    font-size: 20px;
+    
+  
+
+}
+.searchmovie{
+    background: red;
+    text-transform: uppercase;
+}   
 
 
 
